@@ -6,7 +6,7 @@ Data Cleaning & Preprocessing: Handled missing values, standardized delay catego
 Exploratory Data Analysis (EDA): Identified key trends in delay frequency, duration, and common causes using visualizations and statistical analysis.
 Insightful Visualizations: Created charts and graphs to highlight peak delay periods, station-specific disruptions, and seasonal trends.
 
-🔍 Tech Stack: Python, Pandas, NumPy, Matplotlib, Seaborn
+🔍 Tech Stack: Python, Pandas, NumPy, Matplotlib, Geopandas, Scipy
 
 This project showcased my skills in data wrangling and exploratory analysis to support data-driven decision-making.
 
