@@ -2,7 +2,18 @@ This project focused on cleaning and analyzing TTC subway delay data to uncover 
 
 📊 Key Contributions:
 
-Data Cleaning & Preprocessing: Handled missing values, standardized delay categories, and removed inconsistencies for a high-quality dataset.
+**Data Cleaning & Preprocessing**: 
+I populated missing values by extrapolating information from other attributes like Line and Station. For values that I could not extrapolate, I removed the entire row from the dataset. 
+
+
+, standardized delay categories, and removed inconsistencies for a high-quality dataset.
+
+
+
+
+
+
+
 Exploratory Data Analysis (EDA): Identified key trends in delay frequency, duration, and common causes using visualizations and statistical analysis.
 Insightful Visualizations: Created charts and graphs to highlight peak delay periods, station-specific disruptions, and seasonal trends.
 
