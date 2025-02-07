@@ -14,7 +14,9 @@ The Min Delay attibute which represents the number of minutes of the delay is un
 One of the goals of this project is to recommend solutions to delay causes. The TTC identified more than 100 delay causes in the data set. To simplify recommendations, I grouped the delay causes into five (5) categories: Passenger Related, Equipment Related, Personnel Related, Fortuitous Events, and Undefined. 
 
 **Exploratory Data Analysis (EDA)**: 
-I identified key trends in delay frequency, duration, and common causes using visualizations and statistical analysis (linear regression to determine which delay causes have statistically significantly worsened over time).
+I identified key trends in delay frequency, duration, and common causes using visualizations and statistical analysis (linear regression to determine which delay causes have statistically significantly worsened over time). Focus was drawn on statistically significant delay causes under the Passenger Related, Equipment Related, and Personnel Related Categories.
+
+Exploratory data analysis was also conducted on the Stations.
 
 I created charts and graphs to highlight peak delay periods, station-specific disruptions, and seasonal trends.
 
