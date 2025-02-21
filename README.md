@@ -7,7 +7,7 @@ The data set spans from January 1, 2014 to September 30, 2024 with 215,602 rows 
 
 It's not the cleanest of datasets as it has 56,167 null values and a lot of typographical errors, particularly in the Station attribute. I populated missing values by extrapolating information from other attributes like Line. For values that I could not extrapolate, I removed the entire row from the dataset or tagged it as Other. I corrected spelling errors by using a dictionary of key words for the Station names. 
 
-Another issue with the data set is the tagging of delay occurrences. There are numerous entries whose Station was tagged as 'X station approaching X station', or in some other form of the same. To simplify the data cleaning, I assumed that these delay occurrences happened from the source of the train and not the destination. 
+Another issue with the data set is the tagging of delay occurrences. There are numerous entries whose Station was tagged as 'X station approaching X station', or in some other form. To simplify the analysis, I assumed that these delay occurrences happened at the source of the train and not the destination. 
 
 The Min Delay attibute which represents the number of minutes of the delay is undervalued because the TTC rounds down the duration of delays to the nearest minute. Anything that lasts less than a minute is valued at '0', even if the actual delay duration lasted for 59 seconds. 
 
